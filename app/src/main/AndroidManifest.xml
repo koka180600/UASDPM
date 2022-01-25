@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UAS_DPM_TI5A_WISATAAPPS">
         <activity
+            android:name=".MenuUtama2"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Kuliner"
+            android:exported="false" />
+        <activity
+            android:name=".WisataKuliner"
+            android:exported="false" />
+        <activity
+            android:name=".PantaiPenyusuk"
+            android:exported="false" />
+        <activity
+            android:name=".WisataAlam"
+            android:exported="false" />
+        <activity
             android:name=".MenuUtamaActivity"
             android:exported="false" />
         <activity

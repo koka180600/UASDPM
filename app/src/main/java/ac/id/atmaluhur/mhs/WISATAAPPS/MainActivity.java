@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         button1 = (Button)findViewById(R.id.button1);
 
         button1.setOnClickListener(v -> {
-            Intent intent1 = new Intent(getApplicationContext(),MenuUtama.class);
+            Intent intent1 = new Intent(getApplicationContext(),MenuUtama2.class);
             startActivity(intent1);
         });
     }
